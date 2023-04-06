@@ -1,0 +1,15 @@
+<div class="parent">
+    <div class="left">
+        <mat-sidenav-container>
+            <mat-sidenav>Start</mat-sidenav>
+            <mat-sidenav-content>
+                <h1 routerLink="create">student form</h1>
+                <h1 routerLink="student">students</h1>
+                <button routerLink="/login">Logout</button>
+            </mat-sidenav-content>
+        </mat-sidenav-container>
+    </div>
+    <div class="right">
+        <router-outlet></router-outlet>
+    </div>
+</div>

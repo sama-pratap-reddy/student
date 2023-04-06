@@ -1,0 +1,27 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 80%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .login{
+    width:40%;
+    height: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .parent
+  {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

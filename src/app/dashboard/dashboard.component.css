@@ -1,0 +1,27 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color:blue;
+}
+.tollbar{
+    width: 100vw;
+    height: 8%;
+    background-color: aqua;
+    
+}
+.left{
+    background-color: aqua;
+    width: 15%;
+    height: auto;
+    overflow: auto;
+}
+.right{
+    width: 85%;
+    height:auto;
+    overflow: auto;
+}
+.example-spacer {
+    flex: 1 1 auto;
+    display: inline-flex;
+}
